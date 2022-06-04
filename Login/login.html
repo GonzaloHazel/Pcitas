@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Login/styleLOG.css">
+    <link rel="icon" href="/assets/images/seelelogo.svg" >
+  
+    
+    <title>Seele</title>
+</head>
+
+<body>
+
+    <div class="container-from sign-up">
+        <div class="bienvenido-regreso">
+            <div class="mensaje">
+                <h2>Bienvenido</h2>
+                <p>Si tienes cuenta inicia sesion aqui</p>
+                <button class="sign-up-btn">Iniciar Sesion</button>
+            </div>
+        </div>
+        <form class="formulario">
+            <h2 class="create-acount">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+            </div>
+            <p class="cuentafree">Crear una cuenta</p>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contra">
+            <input type="button" value="Registrame" onclick="registro()">
+        </form>
+    </div>
+
+    <div class="container-from sign-rec">
+        <form class="formulario">
+            <h2 class="create-acount">Recuperar Cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+            </div>
+            <p class="regreso">Regresar</p>
+            <p class="instr">Ingresa tu correo electronico
+            </p>
+            <input type="email" placeholder="Email">
+            <input type="button" value="recuperar cuneta">
+        </form>
+        </div>
+    </div>
+
+    <div class="container-from sign-in">
+        <form class="formulario">
+            <h2 class="create-acount">Iniciar Sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+            </div>
+            <p class="cuentafree">No tienes cuenta?</p>
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Contra" id="contra">
+            <p class="recucount">No recuerdas tu contrasena?</p>
+            <input type="button" value="inicar sesion" id="boton" onclick="login()">
+        </form>
+        <div class="bienvenido-regreso">
+            <div class="mensaje">
+                <h2>Bienvenido de vuelta!</h2>
+                <p>Si no tienes cuenta registrate aqui!</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
+    <a class="aDescargar" href="/Unidad 3 Investigacion.pdf" download="Investigacion U3.pdf"></a>
+    <script src="/Login/script.js"></script>
+    <script src="/Login/log.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
