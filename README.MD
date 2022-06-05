@@ -9,4 +9,5 @@ Paguina web de citas usando HTML , Css y javaScript
 
 
 Previsualizacion:
+
 ![Previsualizacion](https://github.com/GonzaloHazel/Pcitas/blob/main/assets/images/preview.jpg)
